@@ -1,0 +1,71 @@
+    Build a fully responsive, browser-based 2D arcade game called Flying Birdie, inspired by the classic game Flappy Bird.
+
+    The game must run smoothly on all devices — desktop, tablet, and mobile — with optimized controls and layout.
+
+    🛠️ The game must be built efficiently, with clean, modular code and zero runtime bugs or logic errors. All features and mechanics should be tested and fully functional. Avoid unnecessary complexity or dependencies.
+
+🎯 Gameplay Objectives
+
+    Tap (mobile) or spacebar/click (desktop) to flap the bird upward
+
+    The bird falls automatically due to gravity
+
+    Scroll pipes horizontally from right to left with random gaps
+
+    Bird must fly through gaps to score points
+
+    Game ends when the bird hits a pipe or the ground
+
+    Include live score and a restart button
+
+✅ Requirements Checklist
+
+    ✅ Clean animation loop using requestAnimationFrame or Canvas
+
+    ✅ Accurate collision detection (bird-to-pipe and bird-to-ground)
+
+    ✅ Responsive controls:
+
+        Spacebar or mouse click for desktop
+
+        Screen tap for mobile
+
+    ✅ Responsive layout for various screen sizes
+
+    ✅ Game restart button and replay functionality
+
+    ✅ Optional: SFX for flap, point, and collision (or placeholder logic)
+
+🎨 Visual Design
+
+    Bright, fun, cartoon-style:
+
+        Sky blue background
+
+        Green pipes
+
+        Cute bird with smooth flap animation
+
+    Use Canvas or HTML elements with clean performance
+
+    Add parallax scrolling or background elements if light enough
+
+📱 Optimization & Deployment
+
+    Game must load fast and run at smooth framerate (60fps preferred)
+
+    Code should be modular, commented, and easy to maintain
+
+    Compatible with all modern browsers (Chrome, Safari, Firefox, Edge)
+
+    Export as a single-page application that can be hosted via GitHub Pages, Vercel, or similar static site hosts
+
+🧪 Testing & Quality Expectations
+
+    All gameplay features must be fully tested and verified to work correctly
+
+    Handle edge cases (e.g., no input, fast tapping, resizing screen mid-game)
+
+    Prevent memory leaks, redundant re-renders, or logic bugs
+
+    Prioritize clean architecture for future feature expansion
