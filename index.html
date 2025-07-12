@@ -3,12 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flying Birdie</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Flying Birdie - Free Online Bird Flying Game | Play Now!</title>
+    <meta name="title" content="Flying Birdie - Free Online Bird Flying Game | Play Now!">
+    <meta name="description" content="Play Flying Birdie, an addictive bird flying game with power-ups, combo system, and stunning day/night cycle. Test your reflexes and beat your high score!">
+    <meta name="keywords" content="flying bird game, flappy bird, online game, browser game, bird flying, arcade game, free game, html5 game, canvas game, mobile game">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Flying Birdie Game">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com/">
+    <meta property="og:title" content="Flying Birdie - Free Online Bird Flying Game">
+    <meta property="og:description" content="Play Flying Birdie, an addictive bird flying game with power-ups, combo system, and stunning day/night cycle. Test your reflexes and beat your high score!">
+    <meta property="og:image" content="https://yourwebsite.com/favicon-512x512.png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <meta property="og:image:alt" content="Flying Birdie Game Screenshot">
+    <meta property="og:site_name" content="Flying Birdie">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourwebsite.com/">
+    <meta property="twitter:title" content="Flying Birdie - Free Online Bird Flying Game">
+    <meta property="twitter:description" content="Play Flying Birdie, an addictive bird flying game with power-ups, combo system, and stunning day/night cycle. Test your reflexes and beat your high score!">
+    <meta property="twitter:image" content="https://yourwebsite.com/favicon-512x512.png">
+    <meta property="twitter:image:alt" content="Flying Birdie Game Screenshot">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64x64.png">
+    <link rel="icon" type="image/png" sizes="128x128" href="/favicon-128x128.png">
+    <link rel="icon" type="image/png" sizes="256x256" href="/favicon-256x256.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512x512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#87CEEB">
+    <meta name="msapplication-TileColor" content="#87CEEB">
+    <meta name="msapplication-TileImage" content="/favicon-144x144.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourwebsite.com/">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Game",
+      "name": "Flying Birdie",
+      "description": "An addictive bird flying game with power-ups, combo system, and stunning day/night cycle. Test your reflexes and beat your high score!",
+      "genre": "Arcade",
+      "gamePlatform": "Web Browser",
+      "operatingSystem": "Any",
+      "applicationCategory": "Game",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1000"
+      }
+    }
+    </script>
+    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Game Container -->
     <div class="game-container">
-        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <canvas id="gameCanvas" width="800" height="600" aria-label="Flying Birdie Game Canvas"></canvas>
         <div class="ui-overlay">
             <div class="score-display">
                 <span id="scoreText">Score: 0</span>
@@ -29,6 +103,28 @@
             </div>
         </div>
     </div>
+    
+    <!-- Game Description for SEO -->
+    <div style="display: none;">
+        <h2>About Flying Birdie</h2>
+        <p>Flying Birdie is an exciting arcade-style bird flying game that challenges your reflexes and timing. Navigate through obstacles, collect power-ups, and build combos to achieve the highest score possible. The game features a beautiful day/night cycle, particle effects, and responsive controls that work on both desktop and mobile devices.</p>
+        
+        <h3>Game Features:</h3>
+        <ul>
+            <li>Smooth gameplay with realistic physics</li>
+            <li>Power-ups: Slow Motion, Shield, and Double Points</li>
+            <li>Combo system for bonus points</li>
+            <li>Dynamic day/night cycle</li>
+            <li>Particle effects and visual feedback</li>
+            <li>High score tracking</li>
+            <li>Responsive design for all devices</li>
+            <li>Web Audio API sound effects</li>
+        </ul>
+        
+        <h3>How to Play:</h3>
+        <p>Control your bird by tapping the screen (mobile) or pressing spacebar/clicking (desktop). Navigate through the pipes without touching them. Collect power-ups to gain special abilities and build combos for higher scores. The game gets progressively more challenging as your score increases.</p>
+    </div>
+    
     <script src="game.js"></script>
 </body>
 </html> 

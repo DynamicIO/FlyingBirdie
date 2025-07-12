@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Allow all game assets and files
+Allow: /game.js
+Allow: /styles.css
+Allow: /favicon*
+Allow: /apple-touch-icon.png
+Allow: /site.webmanifest 
