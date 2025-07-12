@@ -10,6 +10,5 @@ Crawl-delay: 1
 # Allow all game assets and files
 Allow: /game.js
 Allow: /styles.css
-Allow: /favicon*
-Allow: /apple-touch-icon.png
+Allow: /20250712_1543_Pixilated Flying Bird_simple_compose_01k002k7a1e9rrv7vs2bv39vef.png
 Allow: /site.webmanifest 
